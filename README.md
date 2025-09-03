@@ -193,3 +193,19 @@ All user inputs are validated and sanitized to prevent injection attacks (e.g., 
 ---
 
 Implementing these measures makes the system resilient against common attack vectors, protects user trust, and ensures that the platform can scale securely as it grows.
+
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code. By integrating changes frequently and deploying them automatically, the project ensures faster development cycles, higher quality releases, and reduced risk of human error.  
+
+For this project, the CI/CD pipeline plays a crucial role in:  
+- Running automated tests to validate features before merging code.  
+- Building Docker containers for consistent development and production environments.  
+- Automatically deploying updates to staging or production environments after passing all checks.  
+
+### Tools Used
+- **GitHub Actions**: For automating testing, builds, and deployment workflows.  
+- **Docker**: To create lightweight and reproducible environments for the application.  
+- **CI/CD Pipelines** (e.g., GitHub Actions workflows, potentially integrated with Kubernetes or cloud services): To ensure smooth deployment and scaling.  
+
+This setup helps maintain code reliability, accelerates the release process, and supports continuous improvement throughout the product’s lifecycle.
