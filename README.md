@@ -146,3 +146,24 @@ Redis is an in-memory data structure store used as a database, cache, and messag
 - A **User** can write multiple **Reviews** (one-to-many).
 - A **Review** belongs to one **Property** and one **User** (many-to-one).
 - A **Payment** is linked to one **Booking** (one-to-one).
+
+
+## Feature Breakdown
+
+### 1. User Management
+This feature provides a secure system for handling user registration, authentication, and profile management. It ensures that both hosts and guests can safely log in, manage their personal data, and interact with the platform.
+
+### 2. Property Management
+Property management allows hosts to create, update, view, and delete property listings. This ensures that the platform maintains up-to-date property information, enabling guests to explore available options easily.
+
+### 3. Booking System
+The booking system enables users to reserve properties, manage booking details, and track check-in/check-out information. It forms the core of the platform, ensuring smooth communication between guests and hosts.
+
+### 4. Payment Processing
+This feature handles transactions securely by integrating payment solutions to process bookings. It records the payment details, ensuring traceability and a safe experience for users.
+
+### 5. Review System
+The review system allows guests to provide feedback and ratings for properties. It adds credibility to hosts and helps future guests make informed decisions. 
+
+### 6. Database Optimizations
+Database optimizations ensure high performance by using indexing for faster queries and caching to reduce load. This guarantees efficient data retrieval and a smoother user experience, even with large datasets.
