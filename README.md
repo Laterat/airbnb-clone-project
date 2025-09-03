@@ -167,3 +167,29 @@ The review system allows guests to provide feedback and ratings for properties. 
 
 ### 6. Database Optimizations
 Database optimizations ensure high performance by using indexing for faster queries and caching to reduce load. This guarantees efficient data retrieval and a smoother user experience, even with large datasets.
+
+## API Security
+
+Securing the backend APIs is critical to protecting sensitive user data, ensuring trust, and maintaining safe interactions on the platform. To achieve this, several key security measures are implemented:
+
+### 1. Authentication
+All API endpoints are secured with robust authentication mechanisms (e.g., token-based authentication or OAuth2). This ensures that only verified users and services can access protected resources, preventing unauthorized access to accounts and personal data.
+
+### 2. Authorization
+Granular role-based access control is enforced for hosts, guests, and administrators. This ensures that users can only perform actions they are permitted to (e.g., only property owners can update their listings), safeguarding the integrity of the application.
+
+### 3. Rate Limiting
+Rate limiting is applied to prevent abuse of the API through methods like brute-force attacks or excessive requests. By controlling request frequency, the platform remains stable and protected from denial-of-service attempts.
+
+### 4. Data Encryption
+Sensitive information such as user credentials and payment details is encrypted both in transit (via HTTPS/TLS) and at rest. This prevents data leaks and protects against eavesdropping attacks.
+
+### 5. Secure Payments
+The payment processing system integrates with trusted third-party providers and follows strict PCI-DSS compliance. This ensures financial transactions are secure and reduces risks of fraud or theft.
+
+### 6. Input Validation and Sanitization
+All user inputs are validated and sanitized to prevent injection attacks (e.g., SQL injection, XSS). This helps maintain data integrity and system security.
+
+---
+
+Implementing these measures makes the system resilient against common attack vectors, protects user trust, and ensures that the platform can scale securely as it grows.
