@@ -45,3 +45,29 @@ The Security Specialist ensures that the application is secure from vulnerabilit
 
 ### 8. UI/UX Designer
 The UI/UX Designer is responsible for the application's look and feel. They conduct user research, design wireframes, and create prototypes to enhance user experience.
+
+## Technology Stack
+
+### 1. Django
+Django is a high-level web framework for building web applications quickly and efficiently. It follows the Model-View-Template (MVT) architectural pattern and helps in developing RESTful APIs.
+
+### 2. MySQL
+MySQL is a relational database management system that stores application data in a structured format. It provides powerful querying capabilities and ensures data integrity.
+
+### 3. GraphQL
+GraphQL is a query language for APIs that enables clients to request only the data they need. It allows for more efficient data retrieval compared to traditional REST APIs.
+
+### 4. Docker
+Docker is a containerization platform that allows developers to package applications and their dependencies into containers. This ensures consistency across different environments and simplifies deployment.
+
+### 5. GitHub Actions
+GitHub Actions is a CI/CD tool that automates workflows directly in GitHub. It helps in building, testing, and deploying applications automatically, enhancing development efficiency.
+
+### 6. Bootstrap
+Bootstrap is a front-end framework that provides pre-designed components and styles for building responsive web interfaces. It helps in creating a visually appealing user experience.
+
+### 7. Nginx
+Nginx is a web server that can also be used as a reverse proxy. It efficiently handles client requests and serves static content, improving application performance.
+
+### 8. Redis
+Redis is an in-memory data structure store used as a database, cache, and message broker. It enhances application performance by providing fast data access and temporary storage.
